@@ -174,6 +174,7 @@ Each subject (30) performed all the experiment (6) to gather a total of 180 rows
 # Cleaning up / Tidy Data Recipe
 
 The following steps have been followed to create the tidy data set:
+
 1. Activity labels are obtained from activity_labels
 2. Feature names are obtained from features
 3. Subject, measurement and activity information for the test set is obtained from subject_test, x_test and y_test files
