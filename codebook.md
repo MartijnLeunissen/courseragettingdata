@@ -38,7 +38,10 @@ The tidy data set consists of 180 rows and 68 columns
 	The remaining columns contains the average of the measured mean and standard devation values
 	Note that the meanFreq columns are explicitly not included in the tidy dataset, because they are a weighted average
 	
-
+	Measurement units:
+	- The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
+	- The gyroscope units are rad/seg.
+	
 	For a more detailed description of these columns please find the content of the features_info.txt file within the full data set, which can be retrieved at [a] below:
 
 >	Feature Selection 
