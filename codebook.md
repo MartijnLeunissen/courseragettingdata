@@ -23,20 +23,19 @@ The tidy data set consists of 180 rows and 68 columns
 
 # Column description
 
-[1] Subject
-	The id of the subject performing the experiment ranging from 1 to 30
-[2] Activity
-	Name of the activity performed by the subject
-	Full list of the activities:
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING     
+	[1] Subject
+		The id of the subject performing the experiment ranging from 1 to 30
+	[2] Activity
+		Name of the activity performed by the subject
+		Full list of the activities:
+			WALKING
+			WALKING_UPSTAIRS
+			WALKING_DOWNSTAIRS
+			SITTING
+			STANDING
+			LAYING     
 
-The remaining columns contains the average of the measured mean and standard devation values
-Note that the meanFreq columns are explicitly not included in the tidy dataset, because they are a weighted average
+The remaining columns contains the average of the measured mean and standard devation values. Note that the meanFreq columns are explicitly not included in the tidy dataset, because they are a weighted average
 
 Measurement units:
 - The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
