@@ -3,8 +3,10 @@
 # Source Experiment & Data Set
 
 The experiment & data set are described in detailed at the following location:
-[a] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Human Activity Recognition Using Smartphones Data Set
+
+[a] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 # Original Data Set Information
 The following data set information is available at [a]:
@@ -172,14 +174,14 @@ Each subject (30) performed all the experiment (6) to gather a total of 180 rows
 # Cleaning up / Tidy Data Recipe
 
 The following steps have been followed to create the tidy data set:
- [1] Activity labels are obtained from activity_labels
- [2] Feature names are obtained from features
- [3] Subject, measurement and activity information for the test set is obtained from subject_test, x_test and y_test files
- [4] Subject, measurement and activity information for the training set is obtained from subject_training, x_training and y_training files
- [5] The subject, measurement and activity information is merged across the data sets
- [6] The column names are assigned to the merged data sets, in the case of features based on [2]
- [7] The measurement data is filtered to only retain columns concerning the mean and standard deviation measurements
- 	 This is done using a filter on the feature names
-[8] The subject, filtered measurement and activity information data sets are merged
-[9] The data is aggregated based on subject and activity
-[10] The activity ids are replaced by the activity names
+1. Activity labels are obtained from activity_labels
+2. Feature names are obtained from features
+3. Subject, measurement and activity information for the test set is obtained from subject_test, x_test and y_test files
+4. Subject, measurement and activity information for the training set is obtained from subject_training, x_training and y_training files
+5. The subject, measurement and activity information is merged across the data sets
+6. The column names are assigned to the merged data sets, in the case of features based on [2]
+7. The measurement data is filtered to only retain columns concerning the mean and standard deviation measurements
+	 This is done using a filter on the feature names
+8. The subject, filtered measurement and activity information data sets are merged
+9. The data is aggregated based on subject and activity
+10. The activity ids are replaced by the activity names
