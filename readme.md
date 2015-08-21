@@ -1,4 +1,4 @@
-## Getting and Cleaning Data - Readme
+# Getting and Cleaning Data - Readme
 
 This is my entry for the Peer assessment course project for "Getting and Cleaning Data" offered by coursera
 
@@ -9,7 +9,7 @@ Subsequently it will unzip the archive, read & clean the data and write out a ti
 
 The codebook describing the tidy data set is available as codebook.md
 
-# Cleaning up steps executed by the script
+## Cleaning up steps executed by the script
 
 The following steps have been followed to create the tidy data set:
 
