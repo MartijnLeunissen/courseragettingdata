@@ -185,4 +185,4 @@ The following steps have been followed to create the tidy data set:
 	 This is done using a filter on the feature names
 8. The subject, filtered measurement and activity information data sets are merged
 9. The data is aggregated based on subject and activity
-10. The activity ids are replaced by the activity names
+10. The activity ids are replaced by the activity names based on step 1.
